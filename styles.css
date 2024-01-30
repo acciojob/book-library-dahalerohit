@@ -13,6 +13,11 @@ body{
 }
 .book-library{
 	background-color:#f8f8f8;
+	 padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+	
 }
 hr{
 	height:20px;
@@ -35,4 +40,12 @@ hr{
 h2{
 	margin-left:20px;
 	margin-right:20px;
+}
+.book{
+	 width: 250px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
 }
